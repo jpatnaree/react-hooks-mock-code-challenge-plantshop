@@ -43,22 +43,28 @@
       "price": 55
     },
     {
-      "name": "Meow",
-      "image": "https://images.ctfassets.net/cnu0m8re1exe/qDQgxOUG5DNKlKH5TXsbo/813fa629fe33794c7ff439070fc31b89/shutterstock_603117302.jpg?fm=jpg&fl=progressive&w=660&h=433&fit=fill",
-      "price": 33,
-      "id": 10
-    },
-    {
-      "name": "Quack",
-      "image": "https://d27p2a3djqwgnt.cloudfront.net/wp-content/uploads/2021/02/23163358/animal-1853178_1280-e1614116065482.jpg",
-      "price": 88,
-      "id": 11
-    },
-    {
       "name": "Woof",
       "image": "https://i.ytimg.com/vi/J4fbjNUTGg4/hqdefault.jpg",
       "price": 22.99,
       "id": 12
+    },
+    {
+      "name": "Ahehe Parrot",
+      "image": "https://sadanduseless.b-cdn.net/wp-content/uploads/2022/02/funny-bird4.jpg",
+      "price": 59.99,
+      "id": 14
+    },
+    {
+      "name": "Pat Pat",
+      "image": "https://www.boredpanda.com/blog/wp-content/uploads/2022/05/30-6283792741243__700.jpg",
+      "price": 99,
+      "id": 15
+    },
+    {
+      "image": "https://i.pinimg.com/736x/16/65/af/1665afa9564cb0d0e9551f7a8e6d91e7.jpg",
+      "name": "Smiley Boy",
+      "price": 19.99,
+      "id": 16
     }
   ]
 }

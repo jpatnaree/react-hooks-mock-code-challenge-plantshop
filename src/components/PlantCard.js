@@ -2,11 +2,12 @@ import React, { useState } from "react";
 
 function PlantCard({plant, handleDelete}) {
 
-  const {name, image ="https://via.placeholder.com/400", price} = plant
+  const {name, image = "https://via.placeholder.com/400", price} = plant
 
   const [toggle, setToggle] = useState(true)
 
   function toggleButton() {
+    // setToggle((toggle) => !toggle)
     setToggle(!toggle)
   }
 
@@ -14,7 +15,7 @@ function PlantCard({plant, handleDelete}) {
     <li className="card">
       <img src={image} alt={name} />
       <h4>{name}</h4>
-      <p>Price: {price}</p>
+      <p>Price: ${price}</p>
       {toggle ? (
         <button onClick={toggleButton} className="primary">In Stock</button>
       ) : (
