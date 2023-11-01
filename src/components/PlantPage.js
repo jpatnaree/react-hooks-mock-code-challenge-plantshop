@@ -14,7 +14,7 @@ function PlantPage() {
     .then(plantsJson => {
       setPlants(plantsJson)
     })
-  }, [])
+  }, []);
 
   function handleSearch(e) {
     setSearchPlant(e.target.value)
@@ -22,13 +22,22 @@ function PlantPage() {
   
   const filteredSearch = plants.filter(plant => {
     return plant.name.toUpperCase().includes(searchPlant.toUpperCase())
-  })
+  });
+  
+  function handleDelete(id) {
+    setPlants(plants.filter(plant => {
+      return plant.id !== id
+    }))
+    fetch(`http://localhost:6001/plants/${id}`, {
+      method: "DELETE"
+    })
+  };
 
   return (
     <main>
       <NewPlantForm plants={plants} setPlants={setPlants} />
       <Search handleSearch={handleSearch} />
-      <PlantList plants={filteredSearch} />
+      <PlantList plants={filteredSearch} handleDelete={handleDelete} />
     </main>
   );
 }

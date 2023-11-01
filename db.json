@@ -43,22 +43,22 @@
       "price": 55
     },
     {
-      "name": "Woof",
-      "image": "https://i.ytimg.com/vi/J4fbjNUTGg4/hqdefault.jpg",
-      "price": 10,
-      "id": 8
-    },
-    {
-      "name": "Quack",
-      "image": "https://d27p2a3djqwgnt.cloudfront.net/wp-content/uploads/2021/02/23163358/animal-1853178_1280-e1614116065482.jpg",
-      "price": 11,
-      "id": 9
-    },
-    {
       "name": "Meow",
       "image": "https://images.ctfassets.net/cnu0m8re1exe/qDQgxOUG5DNKlKH5TXsbo/813fa629fe33794c7ff439070fc31b89/shutterstock_603117302.jpg?fm=jpg&fl=progressive&w=660&h=433&fit=fill",
       "price": 33,
       "id": 10
+    },
+    {
+      "name": "Quack",
+      "image": "https://d27p2a3djqwgnt.cloudfront.net/wp-content/uploads/2021/02/23163358/animal-1853178_1280-e1614116065482.jpg",
+      "price": 88,
+      "id": 11
+    },
+    {
+      "name": "Woof",
+      "image": "https://i.ytimg.com/vi/J4fbjNUTGg4/hqdefault.jpg",
+      "price": 22.99,
+      "id": 12
     }
   ]
 }
